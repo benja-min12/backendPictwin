@@ -18,6 +18,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Random;
 
+/**
+ * @author Benjamin Millas
+ * Class PicTwinImpl Implements the methods to PicTwin
+ */
 @Slf4j
 @Service
 public class PicTwinImpl implements PicTwin {

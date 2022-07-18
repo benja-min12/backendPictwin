@@ -7,9 +7,13 @@ import lombok.*;
 
 import java.time.ZonedDateTime;
 
+/**
+ * @author Benjamin Millas
+ * Class pic
+ */
 @Entity
 @Table(name = "pics")
-@Builder // Replace the constructor
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public final class Pic {

@@ -10,7 +10,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
-
+/**
+ * @author Benjamin Millas
+ * Class Twin
+ */
 @Entity
 @Table(name = "twins")
 @Builder

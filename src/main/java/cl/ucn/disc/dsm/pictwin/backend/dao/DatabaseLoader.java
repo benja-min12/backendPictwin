@@ -8,15 +8,27 @@ import cl.ucn.disc.dsm.pictwin.backend.services.PicTwin;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+/**
+ * @author Benjamin Millas
+ * Class DatabaseLoader for seed the data base
+ */
 @Slf4j
 @Component
 public class DatabaseLoader implements CommandLineRunner {
     private final PicTwin picTwin;
 
+    /**
+     * @param picTwin
+     */
     public DatabaseLoader(PicTwin picTwin) {
         this.picTwin = picTwin;
     }
 
+    /**
+     * @param args
+     * @throws Exception
+     */
     @Override
     public void run(String... args)throws Exception{
         log.info("Database DataLoader: Starting seeder...");
