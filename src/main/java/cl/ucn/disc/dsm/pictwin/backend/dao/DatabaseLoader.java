@@ -26,6 +26,7 @@ public class DatabaseLoader implements CommandLineRunner {
     }
 
     /**
+     * function run for seed the data base
      * @param args
      * @throws Exception
      */
